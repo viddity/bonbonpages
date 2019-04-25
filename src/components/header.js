@@ -2,36 +2,27 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Navigation from './navigation'
+import Me from '../images/staedlmaedl.jpg'
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      display: `flex`,
-      height: `4rem`,
-      background: `#3B8EA5`,
-      justifyContent: `space-between`,
-      alignItems: `center`,
-      marginBottom: `1.45rem`,
-      padding: `0 1rem`,
-    }}
-  >
-    <div>
-      <h1 style={{
-          margin: 0,
-          padding: 0
-        }}
-      >
+  <header className="tc pv2 pv3-ns avenir">
+    <span>
+      <img className="br-100 pa1 ba b--black-10 h4 w4"
+        src={Me}
+        alt="Avatar"
+      />
+      <h1 className="mt2 mb0 fw2 f1">
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Verena Brodbeck
         </Link>
       </h1>
-    </div>
+      <h2 className="f6 gray fw2 ttu tracked">{siteTitle}</h2>
+    </span>
     <Navigation />
   </header>
 )
