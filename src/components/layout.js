@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -35,8 +35,12 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            {/* Footer goes here */}
+          <footer style={{
+            display: `flex`,
+            justifyContent: `flex-end`
+          }}>
+            <a style={{margin: `0 10px`}} href="https://twitter/viddity">@viddity</a>
+            <Link to="./impressum">Impressum</Link>
           </footer>
         </div>
       </>
