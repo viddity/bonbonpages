@@ -5,7 +5,7 @@ import Navigation from './navigation'
 import Me from '../images/staedlmaedl.jpg'
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white black-80 pt1 avenir bt b--black-30">
+  <header className="bg-white black-80 mh2 avenir bb b--black-10">
     <div className="flex justify-between items-end">
       <div className="flex items-center">
         <div className="w-20 mw5 pa1">
