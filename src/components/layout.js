@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
             display: `flex`,
             justifyContent: `flex-end`
           }}>
-            <a style={{margin: `0 10px`}} href="https://twitter/viddity">@viddity</a>
+            <a style={{margin: `0 10px`}} href="https://twitter.com/viddity">@viddity</a>
             <Link to="./impressum">Impressum</Link>
           </footer>
         </div>
