@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,7 +10,6 @@ const IndexPage = () => (
     <p>
       This needs some text, I know.
     </p>
-    <Link to="/about/">About</Link>
   </Layout>
 )
 

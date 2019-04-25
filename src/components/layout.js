@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            Footer goes here
+            {/* Footer goes here */}
           </footer>
         </div>
       </>
