@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "../styles/main.scss"
 
 const Layout = ({ children }) => (
@@ -35,13 +36,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer style={{
-            display: `flex`,
-            justifyContent: `flex-end`
-          }}>
-            <a style={{margin: `0 10px`}} href="https://twitter.com/viddity">@viddity</a>
-            <Link to="./impressum">Impressum</Link>
-          </footer>
+          <Footer siteTitle={data.site.siteMetadata.title} />
         </div>
       </>
     )}

@@ -5,7 +5,7 @@ import Navigation from './navigation'
 import Me from '../images/staedlmaedl.jpg'
 
 const Header = ({ siteTitle }) => (
-  <header className="tc pv2 pv3-ns avenir">
+  <header className="bg-white black-80 tc pv4 avenir">
     <span>
       <img className="br-100 pa1 ba b--black-10 h4 w4"
         src={Me}
