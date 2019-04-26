@@ -5,21 +5,21 @@ import Navigation from './navigation'
 import Me from '../images/staedlmaedl.jpg'
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white black-80 mh2 avenir bb b--black-10">
-    <div className="flex justify-between items-end">
+  <header className="w-100 bg-white black-80 avenir bb b--black-10">
+    <div className="flex flex-column flex-row-ns justify-between-ns items-end">
       <div className="flex items-center">
-        <div className="w-20 mw5 pa1">
-          <img className="br-100 pa1 ba b--black-10 h-100 w-100 wm3"
+        <div className="w-25 mw5-ns pa1">
+          <img className="br-100 pa1 ba b--black-10 w-100 h-100 wm3"
             src={Me}
             alt="Avatar"
           />
         </div>
-        <div className="pa1">
+        <div className="pa1 dim">
           <h1 className="mt2 mb0 fw2 f4 ph1 pv0">
             <Link
               to="/"
               style={{
-                textDecoration: `none`,
+                textDecoration: `none`
               }}
             >
               Verena Brodbeck

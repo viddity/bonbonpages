@@ -13,16 +13,7 @@ const IndexPage = () => (
           src={Me}
           alt="Avatar"
         />
-        <h1 className="mt2 mb0 fw2 f1">
-          <Link
-            to="/"
-            style={{
-              textDecoration: `none`,
-            }}
-          >
-            Verena Brodbeck
-          </Link>
-        </h1>
+        <h1 className="mt2 mb0 fw2 f1">Verena Brodbeck</h1>
         <h2 className="f6 gray fw2 ttu tracked">bonbonPages</h2>
       </span>
       <nav className="bt bb b--black-10 tc mw7 center mt4">
