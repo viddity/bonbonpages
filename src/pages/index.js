@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
 import Me from '../images/staedlmaedl.jpg'
+import "../styles/main.scss"
 
 const IndexPage = () => (
   <>
