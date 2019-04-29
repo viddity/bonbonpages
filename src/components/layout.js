@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div className="flex flex-column items-center pv3-ns ph2 ph3-ns">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="w-two-thirds-ns">{children}</main>
+        <main className="center">{children}</main>
         <Footer siteTitle={data.site.siteMetadata.title} />
       </div>
     )}
