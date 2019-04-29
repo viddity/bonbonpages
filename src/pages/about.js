@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="bonbonpages About" />
+    <SEO title="About" />
     <div className="fl pa3 pa4-ns bg-white black-70 measure f4 times">
       <header className="bb b--black-70 pv4">
         <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">About me</h3>

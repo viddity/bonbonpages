@@ -27,19 +27,19 @@ const IndexPage = () => (
     <div>
       <SEO title="Home" keywords={[`Verena Brodbeck`, `bonbonpages`, `react`, `gatsby`]} />
       <article className="athelas pa4 pb6">
-        <p className="f6 f4-ns lh-copy measure center">
-          Hi, welcome, I am Verena, a former Medical Doctor and Neuroscientist who discovered late in life, that programming is the thing she wants to do as her profession.<br/>
+        <p className="f6 f5-ns lh-copy measure center">
+          Hi, welcome, I am Verena, a former medical doctor and neuroscientist who discovered late in life, that programming is the thing she wants to do as her profession.<br/>
         I am a happy frontend developer now and none of the steps that led me there, would have happened without many
         </p>
-        <blockquote className="ph0 f4 f1-ns measure-narrow center">
-          <p className="fw9 lh-copy lh-title-ns">people, encourraging me.</p>
+        <blockquote className="ph0 f4 f2-ns measure-narrow center">
+          <p className="fw9 lh-copy lh-title-ns">people, encourraging me</p>
         </blockquote>
-        <p className="f6 f4-ns lh-copy measure center">
-        I was encouraged to not ignore my fling for programming, but to take it serious instead, to accept that a career switch at mid-thirty is not completely crazy and that I should trust my gut feeling's never ending song: ”This is what I want to do”. </p>
-        <p className="f6 f4-ns lh-copy measure center">
+        <p className="f6 f5-ns lh-copy measure center">
+        to not ignore my fling for programming, but to take it serious instead. To just swallow my recurring fears that such a career switch at mid-thirty is crazy and that I should trust my gut feeling's never ending song: ”But this is what I want to do ...”. </p>
+        <p className="f6 f5-ns lh-copy measure center">
           So here I am, a frontend developer, just about to start my third employment as such and still happy about the path my professional life took.
         </p>
-        <p className="f6 f4-ns lh-copy measure center">
+        <p className="f6 f5-ns lh-copy measure center">
           I have told more details about this journey <Link className="link bg-animate hover-bg-light-green hover-white ph1 green dib" to="./about">here</Link>.
         </p>
       </article>

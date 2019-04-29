@@ -3,14 +3,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Techettes from "../images/techettes.png"
-import Music from "../images/music.jpg"
-import Ginger from "../images/ginger.jpg"
+// import Music from "../images/music.jpg"
+// import Ginger from "../images/ginger.jpg"
 
 const MixedPickles = () => (
   <Layout>
-    <SEO title="bonbonpages Mixed Pickles" />
+    <SEO title="Mixed Pickles" />
     <div className="fl pa3 pa3-ns bg-white black-70 measure f4 times">
-      <header className="bb b--black-70 pv4">
+      <header className="bb b--black-70 pv2 pv4-ns mb5">
         <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">Stuff I care about</h3>
       </header>
       <section className="pb4">
@@ -20,7 +20,7 @@ const MixedPickles = () => (
           </div>
           <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
             <h2 className="f6 mt5 mt0-ns fw3 ttu tracked lh-title mt0 mb3">Techettes e.V.</h2>
-            <p class="lh-copy">
+            <p className="times lh-copy w-100 f5 mt0">
               The Techettes are a non-profit "Verein", that five other tech enthusiastic women and me brought to life.
               We all share the admiration for tech topics and think it's a pitty that women – amongst other groups – are still so scarce in the industry.<br/>
               We organize meet-ups, talks, workshops, networking evenings in and around Frankfurt a.M..
@@ -29,6 +29,16 @@ const MixedPickles = () => (
         </div>
       </section>
       <section className="pb4">
+        <div class="dt mw12 pt0 pb3 pv2-m pv3-ns">
+          <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+            <h2 className="f6 mt5 mt0-ns fw3 ttu tracked lh-title mt0 mb3">What else?</h2>
+            <p className="times lh-copy w-100 f5 mt0">
+              There is more to come
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* <section className="pb4">
         <div class="dt mw12 center pt0 pb3 pv2-m pv3-ns">
           <div class="db dtc-ns v-mid-ns">
             <img src={Music} alt="Music" class="w-100 mw4 w4-ns" />
@@ -56,7 +66,7 @@ const MixedPickles = () => (
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   </Layout>
 )

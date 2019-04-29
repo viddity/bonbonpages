@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const Impressum = () => (
   <Layout>
-    <SEO title="bonbonpages Impressum" />
+    <SEO title="Impressum" />
     <div className="cf center">
       <div className="w4-n2 fl pa3 pa4-ns bg-white black-70 measure f4 times">
         <header className="bb b--black-70 pv4">

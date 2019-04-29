@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="CV" />
     <article className="cf ph2 ph4-ns pv3 pv5-ns">
       <header className="fn fl-ns w-50-ns pr4-ns">
         <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw1">
