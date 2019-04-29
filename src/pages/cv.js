@@ -8,7 +8,7 @@ const SecondPage = () => (
     <SEO title="About" />
     <article className="cf ph2 ph4-ns pv3 pv5-ns">
       <header className="fn fl-ns w-50-ns pr4-ns">
-        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw2">
+        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw1">
           Employments
         </h1>
         <h2 className="f4 mid-gray lh-title">
@@ -38,7 +38,7 @@ const SecondPage = () => (
 
     <article className="cf ph2 ph4-ns pb3 pb5-ns">
       <header className="fn fl-ns w-50-ns pr4-ns">
-        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw2">
+        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw1">
            Skills
         </h1>
         <h2 className="f4 mid-gray lh-title">
@@ -118,7 +118,7 @@ const SecondPage = () => (
 
     <article className="cf ph2 ph4-ns pv3 pv5-ns">
       <header className="fn fl-ns w-50-ns pr4-ns">
-        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw2">
+        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw1">
           Career Switch
         </h1>
         <h2 className="f4 mid-gray lh-title">
@@ -159,7 +159,7 @@ const SecondPage = () => (
 
     <article className="cf ph2 ph4-ns pv3 pv5-ns">
       <header className="fn fl-ns w-50-ns pr4-ns">
-        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw2">
+        <h1 className="f3 lh-title fw9 mb0 mb3-ns mt0 pt3 bt bw1">
           Former life as MD / Neuroscientist
         </h1>
         <h2 className="f4 mid-gray lh-title">

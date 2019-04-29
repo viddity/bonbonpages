@@ -19,40 +19,30 @@ const IndexPage = () => (
       </span>
       <nav className="bt bb b--black-10 tc mw7 center mt4">
         <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l" to="/about">About</Link>
-        <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" to="/mixedpickles">Mixed Pickles</Link>
-        <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" to="/about">Blog</Link>
         <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-red dib pa3 ph4-l" to="/cv">CV</Link>
+        <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" to="/mixedpickles">Mixed Pickles</Link>
+        {/* <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" to="/about">Blog</Link> */}
       </nav>
     </header>
     <div>
       <SEO title="Home" keywords={[`Verena Brodbeck`, `bonbonpages`, `react`, `gatsby`]} />
-      <article className="athelas pa4">
-        <h1 className="f4 f2-ns lh-copy measure center tc">Hi</h1>
+      <article className="athelas pa4 pb6">
         <p className="f6 f4-ns lh-copy measure center">
-          The form of our letters, the older handwriting and inscriptions as much as
-          the cuttings in use today, reflects a convention that has slowly solidified,
-          an agreement hardened in many battles. Even after the Renaissance several
-          European countries retained broken, blackletter national scripts in opposition to roman, the obligatory type for all Latin material; yet even today, I hope, the last word about Fraktur has not been spoken.
+          Hi, welcome, I am Verena, a former Medical Doctor and Neuroscientist who discovered late in life, that programming is the thing she wants to do as her profession.<br/>
+        I am a happy frontend developer now and none of the steps that led me there, would have happened without many
         </p>
         <blockquote className="ph0 f4 f1-ns measure-narrow center">
-          <p className="fw9 lh-copy lh-title-ns">The punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in their clarity, readability and beauty.
-          </p>
+          <p className="fw9 lh-copy lh-title-ns">people, encourraging me.</p>
         </blockquote>
         <p className="f6 f4-ns lh-copy measure center">
-          Apart from that, the roman minuscule has been our way of writing for hundreds
-          of years. What followed were merely fashionable variations, here and there even
-          deformations, of the noble basic form, but no improvement whatever. The
-          punches of Claude Garamond, cut around 1530 in Paris, are simply unsurpassed in
-          their clarity, readability and beauty. Garamond appeared on the scene at a
-          time when the occidental book, as an object, cast off its medieval
-          ponderousness and took up the form which today is still the best: the slender
-          and upright rectangular body, comprising folded sheets stitched or sewn at
-          the back, in a cover whose protruding edges protect the trimmed pages.
+        I was encouraged to not ignore my fling for programming, but to take it serious instead, to accept that a career switch at mid-thirty is not completely crazy and that I should trust my gut feeling's never ending song: ”This is what I want to do”. </p>
+        <p className="f6 f4-ns lh-copy measure center">
+          So here I am, a frontend developer, just about to start my third employment as such and still happy about the path my professional life took.
         </p>
-
+        <p className="f6 f4-ns lh-copy measure center">
+          I have told more details about this journey <Link className="link bg-animate hover-bg-light-green hover-white ph1 green dib" to="./about">here</Link>.
+        </p>
       </article>
-
-
     </div>
     <Footer siteTitle={'bonbonPages'} />
   </>
