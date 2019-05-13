@@ -28,16 +28,64 @@ const MixedPickles = () => (
           </div>
         </div>
       </section>
-      <section className="pb4">
-        <div class="dt mw12 pt0 pb3 pv2-m pv3-ns">
-          <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
-            <h2 className="f6 mt5 mt0-ns fw3 ttu tracked lh-title mt0 mb3">What else?</h2>
-            <p className="times lh-copy w-100 f5 mt0">
-              There is more to come
-            </p>
+      <div className="fl pa3 pa3-ns bg-white black-70 measure f4 times">
+        <header className="bb b--black-70 pv2 pv4-ns mb5">
+          <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">Talks</h3>
+        </header>
+        <section className="pb4">
+          <h2 className="f6 fw3 ttu tracked lh-title mt0 mb3 baskerville">DevDay Krakow 2016</h2>
+          <div className="video">
+            <iframe
+              title="DevDay Krakow 2016"
+              src="https://www.youtube.com/embed/ViJ8e1NRGWg?controls=0"
+              frameborder="0"
+              style={{
+                width: `100%`,
+                height: `auto`,
+                minHeight: `200px`
+              }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowfullscreen>
+            </iframe>
           </div>
-        </div>
-      </section>
+          <h2 className="f6 fw3 ttu tracked lh-title mt0 mb3 baskerville">Web Montag Frankfurt 2013 (german)</h2>
+          <div className="video">
+            <iframe
+              title="TWeb Montag Frankfurt 2013emp"
+              src="https://player.vimeo.com/video/70137903"
+              frameborder="0"
+              style={{
+                width: `100%`,
+                height: `auto`,
+                minHeight: `200px`
+              }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h2 className="f6 fw3 ttu tracked lh-title mt0 mb3 baskerville">Webinale Berlin 2014 (german)</h2>
+          <div className="video">
+            <iframe
+              title="Webinale Berlin 2014"
+              src="https://www.youtube.com/embed/-FXcxCkyfAw?controls=0"
+              frameborder="0"
+              style={{
+                width: `100%`,
+                height: `auto`,
+                minHeight: `200px`
+              }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </section>
+      </div>
       {/* <section className="pb4">
         <div class="dt mw12 center pt0 pb3 pv2-m pv3-ns">
           <div class="db dtc-ns v-mid-ns">
