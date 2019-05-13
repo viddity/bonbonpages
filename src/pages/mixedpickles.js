@@ -21,7 +21,7 @@ const MixedPickles = () => (
           <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
             <h2 className="f6 mt5 mt0-ns fw3 ttu tracked lh-title mt0 mb3">Techettes e.V.</h2>
             <p className="times lh-copy w-100 f5 mt0">
-              The Techettes are a non-profit "Verein", that five other tech enthusiastic women and me brought to life.
+              The <a className="link bg-animate hover-bg-light-green hover-white ph1 green dib" target="blank" href="http://techettes-frankfurt.com">Techettes</a> are a non-profit "Verein", that five other tech enthusiastic women and me brought to life.
               We all share the admiration for tech topics and think it's a pitty that women – amongst other groups – are still so scarce in the industry.<br/>
               We organize meet-ups, talks, workshops, networking evenings in and around Frankfurt a.M..
             </p>
