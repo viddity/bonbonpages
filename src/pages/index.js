@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
 import Me from '../images/staedlmaedl.jpg'
+
 import "../styles/main.scss"
 
 const IndexPage = () => (
@@ -37,7 +38,7 @@ const IndexPage = () => (
         <p className="f6 f5-ns lh-copy measure center">
         to not ignore my fling for programming, but to take it serious instead. To just swallow my recurring fears that such a career switch at mid-thirty is crazy and that I should trust my gut feeling's never ending song: ”But this is what I want to do ...”. </p>
         <p className="f6 f5-ns lh-copy measure center">
-          So here I am, a frontend developer, just about to start my third employment as such and still happy about the path my professional life took.
+          So here I am, a frontend developer, just started my third employment as such and still happy about the path my professional life took.
         </p>
         <p className="f6 f5-ns lh-copy measure center">
           I have told more details about this journey <Link className="link bg-animate hover-bg-light-green hover-white ph1 green dib" to="./about">here</Link>.

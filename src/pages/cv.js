@@ -19,7 +19,7 @@ const SecondPage = () => (
       <div className="fn fl-ns w-50-ns">
         <b>since 2019-05</b>
         <p className="f5 lh-copy measure mt0-ns">
-          Senior Frontend Developer at <a className="dib link mid-gray dim" href="https://ioki.com">ioki GmbH</a>, Frankfurt
+          Frontend Developer at <a className="dib link mid-gray dim" href="https://ioki.com">ioki GmbH</a>, Frankfurt
         </p>
         <b>2017-10 - 2019-04</b>
         <p className="f5 lh-copy measure mt0-ns">
@@ -57,11 +57,11 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">HTML + CSS</td>
-                <td className="pv1 pr3 bb b--black-20 tr">6 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">7 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">CSS Preprocessors</td>
-                <td className="pv1 pr3 bb b--black-20 tr">5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">6 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">JavaScript</td>
@@ -70,6 +70,10 @@ const SecondPage = () => (
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React/Redux</td>
                 <td className="pv1 pr3 bb b--black-20 tr">1 yr</td>
+              </tr>
+              <tr>
+                <td className="pv1 pr3 bb b--black-20">React-Native</td>
+                <td className="pv1 pr3 bb b--black-20 tr">0.5 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">VueJs/Vuex</td>
@@ -130,7 +134,7 @@ const SecondPage = () => (
         <b>Starting 2014</b>
         <p className="f5 lh-copy measure mt0-ns">
           Active community organizer<br/>
-          Co-founder of non-profit organization Techettes e.V. www.techettes-frankfurt.com<br/>
+          Co-founder of non-profit organization Techettes e.V. <a className="link bg-animate hover-bg-light-green hover-white ph1 green dib" target="blank" href="http://techettes-frankfurt.com">www.techettes-frankfurt.com</a><br/>
           Hosting regular meetups, talks, workshops by and for women working/interested in tech.
         </p>
         <b>2013 - 2016</b>

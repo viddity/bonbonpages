@@ -9,15 +9,15 @@ const SecondPage = () => (
     <div className="fl pa3 pa4-ns bg-white black-70 measure f4 times">
       <header className="bb b--black-70 pv4">
         <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">About me</h3>
-        <h2 className="f6 fw3 ttu tracked lh-title mt0 mb3 baskerville">This is very much work in progress</h2>
       </header>
       <section className="pt5 pb4">
         <p className="times lh-copy w-100 f5 mt0">
-          It all started when I learned that programming is creativity and power.
-          I hadn't had any contact to programming ever. As a neuroscientist, I performed data analyses with Excel. Yes I can see the rolling eyes, of every programing capable scientist
+          I hadn't had any contact to programming ever. As a neuroscientist, I performed data analyses with Excel. Yes, I can see the rolling eyes, of every programing capable scientist
           who has had to do with such semi-pros and ther extensive excel sheets.<br/>
           I had programmers as colleagues back then, and from those I learned, that with tools such as MatLab, data analysis is so much easier, powerfull and fun.
-          I wanted to learn how to do that as well.
+          I wanted to learn how to do that as well and found out how much creativity lays in there.
+        </p>
+        <p className="times lh-copy w-100 f5 mt0">
           But instead of learning MatLab I stumbled over some online courses for HTML and CSS and then there was no turning back.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
