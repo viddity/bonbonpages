@@ -40,9 +40,9 @@ const IndexPage = () => (
         <p className="f6 f5-ns lh-copy measure center">
           So here I am, a frontend developer, just started my third employment as such and still happy about the path my professional life took.
         </p>
-        <p className="f6 f5-ns lh-copy measure center">
+        {/* <p className="f6 f5-ns lh-copy measure center">
           I have told more details about this journey <Link className="link bg-animate hover-bg-light-green hover-white ph1 green dib" to="./about">here</Link>.
-        </p>
+        </p> */}
       </article>
     </div>
     <Footer siteTitle={'bonbonPages'} />

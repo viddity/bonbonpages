@@ -14,7 +14,7 @@ const SecondPage = () => (
         <h2 className="f4 mid-gray lh-title">
           as Frontend developer
         </h2>
-        <time className="f6 ttu tracked gray">2014-2019</time>
+        <time className="f6 ttu tracked gray">2014-2021</time>
       </header>
       <div className="fn fl-ns w-50-ns">
         <b>since 2019-05</b>
@@ -57,23 +57,23 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">HTML + CSS</td>
-                <td className="pv1 pr3 bb b--black-20 tr">7 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">CSS Preprocessors</td>
-                <td className="pv1 pr3 bb b--black-20 tr">6 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">JavaScript</td>
-                <td className="pv1 pr3 bb b--black-20 tr">5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React/Redux</td>
-                <td className="pv1 pr3 bb b--black-20 tr">1 yr</td>
+                <td className="pv1 pr3 bb b--black-20 tr">4 yr</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React-Native</td>
-                <td className="pv1 pr3 bb b--black-20 tr">0.5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">2 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">VueJs/Vuex</td>
@@ -95,23 +95,19 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Git</td>
-                <td className="pv1 pr3 bb b--black-20 tr">5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Continuous Integration / Delivery</td>
-                <td className="pv1 pr3 bb b--black-20 tr">5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Agile Development, Scrum-Team</td>
-                <td className="pv1 pr3 bb b--black-20 tr">5 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">REST, JSON, HTTP-APIs</td>
-                <td className="pv1 pr3 bb b--black-20 tr">4 yr</td>
-              </tr>
-              <tr>
-                <td className="pv1 pr3 bb b--black-20">Test Driven Development</td>
-                <td className="pv1 pr3 bb b--black-20 tr">3 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">6 yr</td>
               </tr>
             </tbody>
           </table>
