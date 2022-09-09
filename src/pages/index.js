@@ -21,28 +21,20 @@ const IndexPage = () => (
       <nav className="bt bb b--black-10 tc mw7 center mt4">
         <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l" to="/about">About</Link>
         <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-red dib pa3 ph4-l" to="/cv">CV</Link>
-        <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l" to="/mixedpickles">Mixed Pickles</Link>
-        {/* <Link className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" to="/about">Blog</Link> */}
       </nav>
     </header>
     <div>
       <SEO title="Home" keywords={[`Verena Brodbeck`, `bonbonpages`, `react`, `gatsby`]} />
       <article className="athelas pa4 pb6">
-        <p className="f6 f5-ns lh-copy measure center">
-          Hi, welcome, I am Verena, a former medical doctor and neuroscientist who discovered late in life, that programming is the thing she wants to do as her profession.<br/>
-        I am a happy frontend developer now and none of the steps that led me there, would have happened without many
-        </p>
-        <blockquote className="ph0 f4 f2-ns measure-narrow center">
-          <p className="fw9 lh-copy lh-title-ns">people, encourraging me</p>
+      <blockquote className="ph0 f4 f2-ns measure-narrow center">
+          <p className="fw9 lh-copy lh-title-ns">Welcome,</p>
         </blockquote>
         <p className="f6 f5-ns lh-copy measure center">
-        to not ignore my fling for programming, but to take it serious instead. To just swallow my recurring fears that such a career switch at mid-thirty is crazy and that I should trust my gut feeling's never ending song: ”But this is what I want to do ...”. </p>
-        <p className="f6 f5-ns lh-copy measure center">
-          So here I am, a frontend developer, just started my third employment as such and still happy about the path my professional life took.
+          I am Verena, a former medical doctor and neuroscientist who discovered late in life that programming is the thing she wants to do as her profession.
         </p>
-        {/* <p className="f6 f5-ns lh-copy measure center">
-          I have told more details about this journey <Link className="link bg-animate hover-bg-light-green hover-white ph1 green dib" to="./about">here</Link>.
-        </p> */}
+        <p className="f6 f5-ns lh-copy measure center">
+          I work as a Software Developer since 2014, lately mainly with React Native.
+        </p>
       </article>
     </div>
     <Footer siteTitle={'bonbonPages'} />

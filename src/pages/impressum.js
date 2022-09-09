@@ -19,9 +19,6 @@ const Impressum = () => (
             <a className="link bg-animate hover-bg-light-green hover-white green dib" href="mailto:kontakt@bonbonpages.de">kontakt@bonbonpages.de</a><br/>
             Twitter:<a className="link bg-animate hover-bg-light-blue hover-white ph1 blue dib" href="https://twitter.com/viddity">@viddity</a>
           </p>
-          <p className="times lh-copy measure f5 mt0">
-            UstId: 012 808 42858
-          </p>
         </section>
       </div>
     </div>
