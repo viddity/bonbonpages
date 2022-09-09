@@ -20,13 +20,16 @@ const MixedPickles = () => (
             <h2 className="f6 mt5 mt0-ns fw3 ttu tracked lh-title mt0 mb3">Techettes e.V.</h2>
             <p className="times lh-copy w-100 f5 mt0">
               The <a className="link bg-animate hover-bg-light-green hover-white ph1 green dib" target="blank" href="http://techettes-frankfurt.com">Techettes</a> are a non-profit "Verein", that five other tech enthusiastic women and me brought to life.
-              We all share the admiration for tech topics and think it's a pitty that women – amongst other groups – are still so scarce in the industry.<br/>
-              We organize meet-ups, talks, workshops, networking evenings in and around Frankfurt a.M..
+              <br></br>We did that, because we all share the admiration for tech topics and think it's a pitty that women – amongst other groups – are still so scarce in the industry.<br/>
+            </p>
+            <p className="times lh-copy w-100 f5 mt0">
+              The Techettes organise meet-ups, talks, workshops, networking evenings in and around Frankfurt a.M..<br></br>
+              Since summer 2022 I am not part of the core team anymore but will of course always support the Techettes.
             </p>
           </div>
         </div>
       </section>
-      <div className="fl pa3 pa3-ns bg-white black-70 measure f4 times">
+      {/* <div className="fl pa3 pa3-ns bg-white black-70 measure f4 times">
         <header className="bb b--black-70 pv2 pv4-ns mb5">
           <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">Talks / Videos</h3>
         </header>
@@ -102,7 +105,7 @@ const MixedPickles = () => (
             </iframe>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

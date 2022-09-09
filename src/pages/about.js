@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -22,6 +22,10 @@ const SecondPage = () => (
         </p>
         <p className="times lh-copy w-100 f5 mt0">
           Over a period of some years which started around 2010 – and felt much like a rollercoaster ride – I have taught myself the basic skills of webdevelopment and found my first job as a frontend developer in 2014.
+        </p>
+        <p className="times lh-copy w-100 f5 mt0">
+          Around 2012, together with admirable other women in tech, I started to organise meetups and workshops for beginners as a local chapter of the RailsGirls.<br></br>
+          We later formed the "Techettes". Read more<Link className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib ph1-l" to="/mixedpickles">here</Link>.
         </p>
       </section>
     </div>

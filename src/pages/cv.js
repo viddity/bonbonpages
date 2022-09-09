@@ -57,23 +57,23 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">HTML + CSS</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">12 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">CSS Preprocessors</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">JavaScript</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React/Redux</td>
-                <td className="pv1 pr3 bb b--black-20 tr">4 yr</td>
+                <td className="pv1 pr3 bb b--black-20 tr">6 yr</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React-Native</td>
-                <td className="pv1 pr3 bb b--black-20 tr">2 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">3 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">VueJs/Vuex</td>
@@ -95,19 +95,19 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Git</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Continuous Integration / Delivery</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Agile Development, Scrum-Team</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">REST, JSON, HTTP-APIs</td>
-                <td className="pv1 pr3 bb b--black-20 tr">6 yr</td>
+                <td className="pv1 pr3 bb b--black-20 tr">8 yr</td>
               </tr>
             </tbody>
           </table>
