@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `${__dirname}/src/images/music.jpg`,
+        icon: `${__dirname}/src/images/fuerte.jpg`,
       },
     },
     {
