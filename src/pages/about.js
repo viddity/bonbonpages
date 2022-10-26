@@ -12,20 +12,20 @@ const SecondPage = () => (
       </header>
       <section className="pt5 pb4">
         <p className="times lh-copy w-100 f5 mt0">
-          I hadn't had any contact to programming ever. As a neuroscientist, I performed data analyses with Excel. Yes, I can see the rolling eyes, of every programing capable scientist
-          who has had to do with such semi-pros and ther extensive excel sheets.<br/>
-          I had programmers as colleagues back then, and from those I learned, that with tools such as MatLab, data analysis is so much easier, powerfull and fun.
-          I wanted to learn how to do that as well and found out how much creativity lays in there.
+          I hadn't had any contact to programming ever. As a neuroscientist, I performed most data analyses using Excel. I see the rolling eyes of every programing capable scientist
+          who has had to do with such semi-pros and their extensive excel sheets.<br/>
+          Some of my colleagues back then were programmers and from those I learned about tools such as MatLab and what data analysis really is, or can be. That programming is powerfull and fun.
+          I wanted to learn how to do that myself and searched for MatLab courses online.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          But instead of learning MatLab I stumbled over some online courses for HTML and CSS and then there was no turning back.
+          But instead of learning MatLab I stumbled over some HTML and CSS courses and then there was no turning back.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          Over a period of some years which started around 2010 – and felt much like a rollercoaster ride – I have taught myself the basic skills of webdevelopment and found my first job as a frontend developer in 2014.
+          Over a period of some years which started around 2010 – and felt much like a rollercoaster ride – I learned the basics of web development and found my first job as a junior frontend developer in 2014.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          Around 2012, together with admirable other women in tech, I started to organise meetups and workshops for beginners as a local chapter of the RailsGirls.<br></br>
-          We later formed the "Techettes". Read more<Link className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib ph1-l" to="/mixedpickles">here</Link>.
+          Around 2012 – together with some admirable other women in tech – I started to organise meetups and workshops for beginners as a local chapter of the RailsGirls.<br></br>
+          We later formed the "Techettes". <Link className="f6 f5-l link bg-animate black-80 bg-light-green hover-bg-light-blue dib ph1-l" to="/mixedpickles">Read more</Link>
         </p>
       </section>
     </div>
