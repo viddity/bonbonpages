@@ -11,7 +11,6 @@ const Footer = ({ siteTitle }) => (
   >
     <div className="tc">
       <Link to="/impressum" className="f7 dib ph2 link mid-gray dim">Impressum</Link>
-      <a href="https://twitter.com/viddity" className="f7 dib ph2 link mid-gray dim">Twitter</a>
     </div>
   </footer>
 )
