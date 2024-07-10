@@ -19,19 +19,19 @@ const SecondPage = () => (
       <div className="fn fl-ns w-50-ns">
         <b>since 2019-05</b>
         <p className="f5 lh-copy measure mt0-ns">
-          Frontend Developer at <a className="dib link mid-gray dim" href="https://ioki.com">ioki GmbH</a>, Frankfurt
+          Frontend Developer at <a className="link bg-animate hover-bg-light-green hover-green ph1 green dib" href="https://ioki.com/en/home/">ioki GmbH</a>, Frankfurt
         </p>
         <b>2017-10 - 2019-04</b>
         <p className="f5 lh-copy measure mt0-ns">
-          Frontend Developer at <a className="dib link mid-gray dim" href="https://fastbill.com">FastBill GmbH</a>, Frankfurt
+          Frontend Developer at <a className="link bg-animate hover-bg-light-green hover-white ph1 green dib" href="https://fastbill.com">FastBill GmbH</a>, Frankfurt
         </p>
         <b>2016-06 – 2017-08</b>
         <p className="f5 lh-copy measure mt0-ns">
-          Frontend Developer & Team Lead at <a className="dib link mid-gray dim" href="https://vaamo.de">vaamo Finanz AG</a>, Frankfurt
+          Frontend Developer and Team Lead at vaamo Finanz AG, Frankfurt
         </p>
         <b>2014-01 - 2016-05</b>
         <p className="f5 lh-copy measure mt0-ns">
-          Junior Frontend Developer at <a className="dib link mid-gray dim" href="https://vaamo.de">vaamo Finanz AG</a>, Frankfurt
+          Junior Frontend Developer at vaamo Finanz AG, Frankfurt
         </p>
       </div>
     </article>
@@ -56,24 +56,28 @@ const SecondPage = () => (
             </thead>
             <tbody className="lh-copy">
               <tr>
+                <td className="pv1 pr3 bb b--black-20">JavaScript</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yrs</td>
+              </tr>
+              <tr>
+                <td className="pv1 pr3 bb b--black-20">TypeScript</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;5 yrs</td>
+              </tr>
+              <tr>
                 <td className="pv1 pr3 bb b--black-20">HTML + CSS</td>
-                <td className="pv1 pr3 bb b--black-20 tr">12 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;12 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">CSS Preprocessors</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
-              </tr>
-              <tr>
-                <td className="pv1 pr3 bb b--black-20">JavaScript</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React/Redux</td>
-                <td className="pv1 pr3 bb b--black-20 tr">6 yr</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;8 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">React-Native</td>
-                <td className="pv1 pr3 bb b--black-20 tr">3 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;5 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">VueJs/Vuex</td>
@@ -95,19 +99,19 @@ const SecondPage = () => (
             <tbody className="lh-copy">
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Git</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">Continuous Integration / Delivery</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yrs</td>
               </tr>
               <tr>
-                <td className="pv1 pr3 bb b--black-20">Agile Development, Scrum-Team</td>
-                <td className="pv1 pr3 bb b--black-20 tr">10 yrs</td>
+                <td className="pv1 pr3 bb b--black-20">Agile Development, Scrum</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yrs</td>
               </tr>
               <tr>
                 <td className="pv1 pr3 bb b--black-20">REST, JSON, HTTP-APIs</td>
-                <td className="pv1 pr3 bb b--black-20 tr">8 yr</td>
+                <td className="pv1 pr3 bb b--black-20 tr">&#62;10 yr</td>
               </tr>
             </tbody>
           </table>
