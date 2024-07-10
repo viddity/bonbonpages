@@ -9,7 +9,7 @@ const MixedPickles = () => (
     <SEO title="Mixed Pickles" />
     <div className="fl pa3 pa3-ns bg-white black-70 measure f4 times">
       <header className="bb b--black-70 pv2 pv4-ns mb5">
-        <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">Stuff I care about</h3>
+        <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">Miscellaneous</h3>
       </header>
       <section className="pb4">
         <div class="dt mw12 center pt0 pb3 pv2-m pv3-ns">

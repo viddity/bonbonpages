@@ -30,10 +30,12 @@ const IndexPage = () => (
           <p className="fw9 lh-copy lh-title-ns">Welcome,</p>
         </blockquote>
         <p className="f6 f5-ns lh-copy measure center">
-          I am Verena, a former medical doctor and neuroscientist who discovered late in life that programming is the thing she wants to do as her profession.
+          I am Verena, a former medical doctor and neuroscientist who discovered late in life that programming is what
+          I want to do as my profession.
         </p>
         <p className="f6 f5-ns lh-copy measure center">
-          I work as a Software Developer since 2014, lately mainly with React Native.
+          I have been working as a Software Developer since 2014, primarily with React Native in recent years.<br/>
+          Find details about my technical skills in my <Link className="f6 f5-l link bg-animate black-80 bg-light-green hover-bg-light-red dib ph1-l" to="/cv">CV</Link>.
         </p>
       </article>
     </div>

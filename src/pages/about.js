@@ -8,24 +8,36 @@ const SecondPage = () => (
     <SEO title="About" />
     <div className="fl pa3 pa4-ns bg-white black-70 measure f4 times">
       <header className="bb b--black-70 pv4">
-        <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">About me</h3>
+        <h3 className="f3 fw7 ttu tracked lh-title mt0 mb3 avenir">How come?</h3>
       </header>
       <section className="pt5 pb4">
         <p className="times lh-copy w-100 f5 mt0">
-          I hadn't had any contact to programming ever. As a neuroscientist, I performed most data analyses using Excel. I see the rolling eyes of every programing capable scientist
-          who has had to do with such semi-pros and their extensive excel sheets.<br/>
-          Some of my colleagues back then were programmers and from those I learned about tools such as MatLab and what data analysis really is, or can be. That programming is powerfull and fun.
-          I wanted to learn how to do that myself and searched for MatLab courses online.
+          "Really? You were an MD/Neuroscientist and now you're a programmer?"<br/>
+          I get that question a lot, as you might imagine. So, here’s the short version:
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          But instead of learning MatLab I stumbled over some HTML and CSS courses and then there was no turning back.
+          I did not have any contact with programming until my mid-thirties.<br/>
+          As a neuroscientist, I performed data analyses using Excel (yes, I can see the eye rolls
+          from every programming-capable scientist who has ever had to deal with such semi-pros and their extensive Excel sheets...).<br/>
+          Some of my colleagues back then were programmers, and from them, I learned about tools
+          like MatLab and discovered that knowing how to program is creative, powerful, and fun.
+          I wanted to learn it myself and searched for MatLab online courses. But instead of MatLab,
+          I stumbled upon HTML, CSS, and JavaScript and simply caught fire.
+          I knew pretty quickly that this was it! There was no turning back. That was around 2010.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          Over a period of some years which started around 2010 – and felt much like a rollercoaster ride – I learned the basics of web development and found my first job as a junior frontend developer in 2014.
+          For several years, I continued to work in the medical field and academia while teaching myself (aka Googling)
+          the basics of web development and JavaScript on the side, building a few websites for friends and family.
+          The real step happened in 2014 when I found my first employment as a junior frontend developer.
         </p>
         <p className="times lh-copy w-100 f5 mt0">
-          Around 2012 – together with some admirable other women in tech – I started to organise meetups and workshops for beginners as a local chapter of the RailsGirls.<br></br>
-          We later formed the "Techettes". <Link className="f6 f5-l link bg-animate black-80 bg-light-green hover-bg-light-blue dib ph1-l" to="/mixedpickles">Read more</Link>
+          Now, with more than 10 years of experience in the industry, I can call myself a senior frontend developer.
+          I still enjoy programming and have never regretted not finding that MatLab course first.
+          The milestones of what sometimes felt like a rollercoaster ride can be found in my <Link className="f6 f5-l link bg-animate black-80 bg-light-green hover-bg-light-red dib ph1-l" to="/cv">CV</Link>.
+        </p>
+        <p className="times lh-copy w-100 f5 mt0">
+          Around 2012, along with several other admirable women in tech, I started organizing meetups and workshops for beginners as a local chapter of RailsGirls.
+          We later formed the group 'Techettes'. <Link className="f6 f5-l link bg-animate black-80 bg-light-green hover-bg-light-blue dib ph1-l" to="/mixedpickles">Read more here.</Link>
         </p>
       </section>
     </div>
